@@ -40,19 +40,21 @@ We intend to investigate the correlation between those two factors through explo
 
 Our goal is to provide some insights about the relation between exhcange rate and inflation. In the end, we also mention limitations in this study.
 
-** Plan **
+**Plan**
 Our project contains two parts: Data collection and preprocessing and Exploratory Data Analysis.
 
-* Data collection and preprocessing *
+*Data collection and preprocessing*
 1. Collecting data from Exchange rates data-API and OECD datasets
+
 2. Cleaning data and preprocessing datasets
     - Selecting the exchange rate of the local currency against the US dollar and calculating the monthly average exchange rate 
     - Cleaning the original static dataframe of CPI 
+
 3. Overall Visualisation
 - Map
 - Line Chart
 
-* Exploratory Data Analysis *
+*Exploratory Data Analysis*
 In this step, our analysis is based on every country since we found that the correlation between exchange rate and inflation is different in different countries.
 
 1. OLS regression + best-fit line
@@ -70,9 +72,8 @@ We use 'Pandas' to get the final 10 dataframe for exploratory analysis which inc
 Map
 
 
-
 Line chart
-![Inflation](inflation.png)
+![Inflation](../plots/inflation.png)
 
 [Link to Complete code](Data collection.md)
 
