@@ -51,6 +51,7 @@ Our project contains two parts: Data collection and preprocessing and Explorator
     - Selecting the exchange rate of the local currency against the US dollar and calculating the monthly average exchange rate 
     - Cleaning the original static dataframe of CPI 
 
+
 3. Overall Visualisation
 - Map
 - Line Chart
@@ -78,5 +79,5 @@ Line chart
 
 ![Inflation](../docs/plots/inflation.png)
 
-[Link to Complete code](Data collection.md)
+[Link to Complete code](Data.md)
 
