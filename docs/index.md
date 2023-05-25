@@ -115,8 +115,8 @@ In the second part of our study, we take steps closer to every country.
     <div style="flex: 50%;">
         <img src="./plots/China_OLS.png" alt="Best-fit line" style="width: 100%;">
     </div>
-    <div style="flex: 50%;">
-        <table>
+    <div style="flex: 50%; display: flex; align-items: center;">
+        <table style="margin: auto;">
             <tr>
                 <th>Coefficients</th>
                 <th>R-squared</th>
@@ -130,5 +130,6 @@ In the second part of our study, we take steps closer to every country.
         </table>
     </div>
 </div>
+
 
 #### Pearson correlation coefficient
