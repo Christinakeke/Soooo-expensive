@@ -31,6 +31,7 @@ As international students studying abroad, we have chosen this topic since it is
 
 Exchange rate is important to us because we constantly face the need to be aware of the change in exchange rate as every single transaction we made is linked to the exchange rate at the time. Hence, both the inflation rate and the exchange rate are linked to our life and motivates us to investigate the correlation between them. 
 
+
 ## 📝 Project description
 We want to evaluate the strength and direction of the correlations between inflation and exchange rate in top 10 GDP countries from 2013-2022. 
 
@@ -61,6 +62,7 @@ In this step, our analysis is based on every country since we found that the cor
 
 1. OLS regression + best-fit line
 2. Pearson correlation coefficient
+
 
 ## 📊 Data
 ### Data Source
@@ -104,6 +106,7 @@ Here is the example of China and Russia:
 [Link to view code](Data.md)
 
 
+
 ## 📈 Exploratory Data Analysis
 
 In the second part of our study, we take steps closer to every country.
@@ -115,7 +118,7 @@ In the second part of our study, we take steps closer to every country.
     <div style="flex: 50%;">
         <img src="./plots/China_OLS.png" alt="Best-fit line" style="width: 100%;">
     </div>
-    <div style="flex: 50%; display: flex; align-items: center;">
+    <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
         <table style="margin: auto;">
             <tr>
                 <th>Coefficients</th>
@@ -130,6 +133,7 @@ In the second part of our study, we take steps closer to every country.
         </table>
     </div>
 </div>
+
 
 
 #### Pearson correlation coefficient
