@@ -51,7 +51,6 @@ Our project contains two parts: Data collection and preprocessing and Explorator
     - Selecting the exchange rate of the local currency against the US dollar and calculating the monthly average exchange rate 
     - Cleaning the original static dataframe of CPI 
 
-
 3. Overall Visualisation
 - Map
 - Line Chart
@@ -66,23 +65,61 @@ In this step, our analysis is based on every country since we found that the cor
 ## 📊 Data
 ### Data Source
 - [Exchange rates data-API](https://apilayer.com/marketplace/exchangerates_data-api)
-- [OECD datasets](https://data.oecd.org/price/inflation-cpi.htm)
+- [OECD data](https://data.oecd.org/price/inflation-cpi.htm)
 
 ### Data collection + cleaning + preprocessing
-We use 'Pandas' to get the final 10 dataframe for exploratory analysis which includes 10 countries' CPI and exchange rate from 2013-2022.
+
+We mainly use ‘pandas' package to obtain the final 10 data frames for exploratory analysis, each including the country's CPI and exchange rate for the period 2013-2022.
+
+The complete cleaning and preprocessing process can be found in link at the end of this part.
 
 ### Visualisation
-[Map](Map.html)
 
-**Line chart-Overall trend**
+We use the following visualisation to show the overall trend of exchange rate and inflation in each country.
+
+[**Map**](Map.html)
+
+**Line chart**
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="./plots/exchange_rate.png" alt="Exchange Rate" width="400" />
-    <img src="./plots/inflation.png" alt="Inflation" width="400" />
+    <img src="./plots/exchange_rate.png" alt="Exchange Rate" width="500" />
+    <img src="./plots/inflation.png" alt="Inflation" width="500" />
+</div>
+
+We found that the variation of exchange rate and inflation is different in different countries, so we further investigate the correlation between them in each country.
+
+**Country trend**
+
+We combine the trend of exchange rate and inflation together to visualise the correlation between them.
+
+Here is the example of China and Russia: 
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="./plots/China.png" alt="Exchange rate and CPI in China" width="500" />
+    <img src="./plots/Russia.png" alt="Exchange rate and CPI in Russia" width="500" />
 </div>
 
 
+*Here is the link for code used in data collection and preprocessing*
 [Link to view code](Data.md)
 
 
 ## 📈 Exploratory Data Analysis
+
+In the second part of our study, we take steps closer to every country.
+
+### China
+#### OLS regression + best-fit line
+
+<div style="display: flex;">
+    <div style="flex: 50%;">
+        ![Best-fit line](./plots/China_OLS.png)
+    </div>
+    <div style="flex: 50%;">
+        | Coefficients | R-squared | p-values |
+        | ------------ | --------- | -------- |
+        | -34.032598   | 0.069058  | 0.003735 |
+    </div>
+</div>
+
+#### Pearson correlation coefficient
