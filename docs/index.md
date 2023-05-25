@@ -29,9 +29,7 @@
 ## ⚙️ Introduction
 As international students studying abroad, we have chosen this topic since it is closely related to our living standards and the way we live. Inflation measures how much more expensive a set of goods and services has become over a certain period (IMF), which is critical for us to manage the way we allocate money.
 
-Exchange rate is important to us because we constantly face the need to be aware of the change in exchange rate as every single transaction we made is linked to the exchange rate at the time. Hence, both the inflation rate and the exchange rate are linked to our life and motivates us to investigate the correlation between them. 
-
-
+Exchange rate is important to us because we constantly face the need to be aware of the change in exchange rate as every single transaction we made is linked to the exchange rate at the time. Hence, both the inflation rate and the exchange rate are linked to our life and motivates us to investigate the correlation between them. <br><br>
 
 
 ## 📝 Project description
@@ -63,9 +61,7 @@ Our project contains two parts: Data collection and preprocessing and Explorator
 In this step, our analysis is based on every country since we found that the correlation between exchange rate and inflation is different in different countries.
 
 1. OLS regression + best-fit line
-2. Pearson correlation coefficient
-
-
+2. Pearson correlation coefficient<br><br>
 
 
 ## 📊 Data
@@ -107,9 +103,7 @@ Here is the example of China and Russia:
 
 
 *Here is the link for code used in data collection and preprocessing*
-[Link to view code](Data.md)
-
-
+[Link to view code](Data.md)<br><br>
 
 
 ## 📈 Exploratory Data Analysis
@@ -117,9 +111,9 @@ Here is the example of China and Russia:
 In the second part of our study, we take steps closer to every country.
 
 <details>
-  <summary>China</summary>
+  <summary><span style="text-decoration: underline;">China</span></summary>
 
-  ### OLS regression + best-fit line
+  <strong>OLS regression + best-fit line</strong>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -141,7 +135,8 @@ In the second part of our study, we take steps closer to every country.
       </div>
   </div>
 
-  ### Pearson correlation coefficient
+  <strong>Pearson correlation coefficient</strong>
   
   This is the content of the Pearson correlation coefficient section.
 </details>
+
