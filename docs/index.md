@@ -111,7 +111,7 @@ Here is the example of China and Russia:
 In the second part of our study, we take steps closer to every country.
 
 <details>
-  <summary><span style="text-decoration: underline;">China</span></summary>
+  <summary><strong><u>China</u></strong></summary>
 
   <strong>OLS regression + best-fit line</strong>
   
@@ -135,8 +135,13 @@ In the second part of our study, we take steps closer to every country.
       </div>
   </div>
 
+  <br>
+
   <strong>Pearson correlation coefficient</strong>
   
+  <br>
+
   This is the content of the Pearson correlation coefficient section.
+
 </details>
 
