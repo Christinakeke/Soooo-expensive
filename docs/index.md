@@ -147,11 +147,27 @@ In the second part of our study, we take steps closer to every country.
   <strong>Pearson correlation coefficient</strong>
   
   <br>
-
-| Time period    | Pearson correlation coefficient | p-value                |
-| -------------- | ------------------------------  | ---------------------- |
-| 2013-2022      | -0.2627887142427475             | 0.003734956600827832   |
-| 2013-2017      | 0.34047467667291464             | 0.007770841578111888   |
-| 2018-2022      | -0.5877126878699966             | 7.935444328076864e-07  |
+  <table>
+  <tr>
+    <th>Time period</th>
+    <th>Pearson correlation coefficient</th>
+    <th>p-value</th>
+  </tr>
+  <tr>
+    <td>2013-2022</td>
+    <td>-0.2627887142427475</td>
+    <td>0.003734956600827832</td>
+  </tr>
+  <tr>
+    <td>2013-2017</td>
+    <td>0.34047467667291464</td>
+    <td>0.007770841578111888</td>
+  </tr>
+  <tr>
+    <td>2018-2022</td>
+    <td>-0.5877126878699966</td>
+    <td>7.935444328076864e-07</td>
+  </tr>
+  </table>
 
 </details>
