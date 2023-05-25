@@ -32,6 +32,8 @@ As international students studying abroad, we have chosen this topic since it is
 Exchange rate is important to us because we constantly face the need to be aware of the change in exchange rate as every single transaction we made is linked to the exchange rate at the time. Hence, both the inflation rate and the exchange rate are linked to our life and motivates us to investigate the correlation between them. 
 
 
+
+
 ## 📝 Project description
 We want to evaluate the strength and direction of the correlations between inflation and exchange rate in top 10 GDP countries from 2013-2022. 
 
@@ -62,6 +64,8 @@ In this step, our analysis is based on every country since we found that the cor
 
 1. OLS regression + best-fit line
 2. Pearson correlation coefficient
+
+
 
 
 ## 📊 Data
@@ -107,33 +111,37 @@ Here is the example of China and Russia:
 
 
 
+
 ## 📈 Exploratory Data Analysis
 
 In the second part of our study, we take steps closer to every country.
 
-### China
-#### OLS regression + best-fit line
+<details>
+  <summary>China</summary>
 
-<div style="display: flex;">
-    <div style="flex: 50%;">
-        <img src="./plots/China_OLS.png" alt="Best-fit line" style="width: 100%;">
-    </div>
-    <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
-        <table style="margin: auto;">
-            <tr>
-                <th>Coefficients</th>
-                <th>R-squared</th>
-                <th>p-values</th>
-            </tr>
-            <tr>
-                <td>-34.032598</td>
-                <td>0.069058</td>
-                <td>0.003735</td>
-            </tr>
-        </table>
-    </div>
-</div>
+  ### OLS regression + best-fit line
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/China_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>-34.032598</td>
+                  <td>0.069058</td>
+                  <td>0.003735</td>
+              </tr>
+          </table>
+      </div>
+  </div>
 
-
-
-#### Pearson correlation coefficient
+  ### Pearson correlation coefficient
+  
+  This is the content of the Pearson correlation coefficient section.
+</details>
