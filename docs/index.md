@@ -82,8 +82,8 @@ We use the following visualisation to show the overall trend of exchange rate an
 **Line chart**
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="./plots/exchange_rate.png" alt="Exchange Rate" width="500" />
-    <img src="./plots/inflation.png" alt="Inflation" width="500" />
+    <img src="./plots/exchange_rate.png" alt="Exchange Rate" width="400" />
+    <img src="./plots/inflation.png" alt="Inflation" width="400" />
 </div>
 
 We found that the variation of exchange rate and inflation is different in different countries, so we further investigate the correlation between them in each country.
@@ -95,8 +95,8 @@ We combine the trend of exchange rate and inflation together to visualise the co
 Here is the example of China and Russia: 
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="./plots/China.png" alt="Exchange rate and CPI in China" width="500" />
-    <img src="./plots/Russia.png" alt="Exchange rate and CPI in Russia" width="500" />
+    <img src="./plots/China.png" alt="Exchange rate and CPI in China" width="400" />
+    <img src="./plots/Russia.png" alt="Exchange rate and CPI in Russia" width="400" />
 </div>
 
 
@@ -113,12 +113,21 @@ In the second part of our study, we take steps closer to every country.
 
 <div style="display: flex;">
     <div style="flex: 50%;">
-        ![Best-fit line](./plots/China_OLS.png)
+        <img src="./plots/China_OLS.png" alt="Best-fit line" style="width: 100%;">
     </div>
     <div style="flex: 50%;">
-        | Coefficients | R-squared | p-values |
-        | ------------ | --------- | -------- |
-        | -34.032598   | 0.069058  | 0.003735 |
+        <table>
+            <tr>
+                <th>Coefficients</th>
+                <th>R-squared</th>
+                <th>p-values</th>
+            </tr>
+            <tr>
+                <td>-34.032598</td>
+                <td>0.069058</td>
+                <td>0.003735</td>
+            </tr>
+        </table>
     </div>
 </div>
 
