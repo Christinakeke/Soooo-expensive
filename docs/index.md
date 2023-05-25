@@ -139,6 +139,8 @@ In the second part of our study, we take steps closer to every country.
   <br>
 
   <strong>Pearson correlation coefficient</strong>
+
+  <br>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -153,18 +155,18 @@ In the second part of our study, we take steps closer to every country.
              </tr>
              <tr>
                  <td>2013-2022</td>
-                 <td>-0.2627887142427475</td>
-                 <td>0.003734956600827832</td>
+                 <td>-0.262789</td>
+                 <td>0.003735</td>
              </tr>
              <tr>
                  <td>2013-2017</td>
-                 <td>0.34047467667291464</td>
-                 <td>0.007770841578111888</td>
+                 <td>0.340475</td>
+                 <td>0.007771/td>
              </tr>
              <tr>
                  <td>2018-2022</td>
-                 <td>-0.5877126878699966</td>
-                 <td>7.935444328076864e-07</td>
+                 <td>-0.587713</td>
+                 <td>7.935444e-07</td>
              </tr>
          </table>
       </div>
