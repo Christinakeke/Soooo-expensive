@@ -154,6 +154,4 @@ In the second part of our study, we take steps closer to every country.
 | 2013-2017      | 0.34047467667291464             | 0.007770841578111888   |
 | 2018-2022      | -0.5877126878699966             | 7.935444328076864e-07  |
 
-
 </details>
-
