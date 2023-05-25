@@ -2,7 +2,6 @@
 ## Import pacakages
 
 
-
 ```python
 import requests
 import pandas as pd
@@ -92,6 +91,9 @@ CPI_data = df.loc[mask]
 
 # Drop the columns that aren't needed
 CPI_data=CPI_data.drop(['INDICATOR','SUBJECT','MEASURE','FREQUENCY','Flag Codes'],axis=1)
+
+CPI_data.to_excel('CPI_data.xlsx', index=False)
+
 ```
 
 ### Reshaping Data
@@ -127,47 +129,18 @@ df_JPN=country_data(df1,'JPN',monthly_average_JPY)
 df_RUS=country_data(df1,'RUS',monthly_average_RUB)
 df_KOR=country_data(df1,'KOR',monthly_average_KRW)
 
-# US as the reference
-mask = df1['LOCATION'] == 'USA'
-df_USA= df1.loc[mask]
-```
+#output the data
+df_CHN.to_excel('CHN.xlsx',index=False)
+df_CAN.to_excel('CAN.xlsx',index=False)
+df_FRA.to_excel('FRA.xlsx',index=False)
+df_ITA.to_excel('ITA.xlsx',index=False)
+df_DEU.to_excel('DEU.xlsx',index=False)
+df_GBR.to_excel('GBR.xlsx',index=False)
+df_IND.to_excel('IND.xlsx',index=False)
+df_JPN.to_excel('JPN.xlsx',index=False)
+df_RUS.to_excel('RUS.xlsx',index=False)
+df_KOR.to_excel('KOR.xlsx',index=False)
 
-#### Yearly data for modeling
-
-
-```python
-# Create an empty dictionary to store the new dataframes
-yearly_dfs = {}
-
-df_list = [df_CHN, df_USA, df_FRA, df_DEU, df_ITA, df_IND, df_RUS, df_GBR, df_CAN, df_KOR, df_JPN]
-
-for df in df_list:
-    df.loc[:, 'TIME'] = pd.to_datetime(df.loc[:, 'TIME'])
-
-# Loop through each year from 2013 to 2022
-for year in range(2013, 2023):
-    # Create a list to store the dataframes for the current year
-    dfs_for_year = []
-    # Loop through each original dataframe
-    for df_name in ['df_CHN', 'df_FRA', 'df_DEU', 'df_ITA', 'df_IND', 'df_RUS', 'df_GBR', 'df_CAN', 'df_KOR','df_JPN']:
-        # Extract the year from the TIME column and select only the rows for the current year
-        df_for_year = globals()[df_name][globals()[df_name]['TIME'].dt.year == year]
-        # Append the dataframe to the list
-        dfs_for_year.append(df_for_year)
-    # Concatenate all the dataframes for the current year into a single dataframe
-    yearly_dfs[str(year)] = pd.concat(dfs_for_year, ignore_index=True)
-
-# Access the new dataframes using their year as a key
-df_2013=yearly_dfs['2013']  # dataframe for 2013
-df_2014=yearly_dfs['2014']
-df_2015=yearly_dfs['2015']
-df_2016=yearly_dfs['2016']
-df_2017=yearly_dfs['2017']
-df_2018=yearly_dfs['2018']
-df_2019=yearly_dfs['2019']
-df_2020=yearly_dfs['2020']
-df_2021=yearly_dfs['2021']
-df_2022=yearly_dfs['2022']
 ```
 
 ## Data Visualization
@@ -202,11 +175,6 @@ fig.show()
 
 
 ```python
-merged_df = pd.concat(yearly_dfs.values())
-
-# Create a line plot of the exchange rate over time
-p1 = ggplot(merged_df, aes(x='TIME', y='Exchange Rate', color='LOCATION')) + geom_line() + labs(title='Exchange rate', x='Time', y='Exchange rate') + scale_color_discrete(name='Country') + theme_classic() +  scale_x_datetime(date_labels='%Y')
-
 # Create a line plot of the CPI over time
 p2 = ggplot(df1, aes(x='TIME', y='Value', color='LOCATION')) + geom_line() + labs(title='Inflation', x='Time', y='CPI') + scale_color_discrete(name='Country') + theme_classic() +  scale_x_datetime(date_labels='%Y')
 ```
