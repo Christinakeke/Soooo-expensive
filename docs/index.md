@@ -161,7 +161,7 @@ In the second part of our study, we take steps closer to every country.
              <tr>
                  <td>2013-2017</td>
                  <td>0.340475</td>
-                 <td>0.007771/td>
+                 <td>0.007771</td>
              </tr>
              <tr>
                  <td>2018-2022</td>
