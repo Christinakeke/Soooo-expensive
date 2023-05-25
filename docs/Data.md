@@ -1,4 +1,4 @@
-# Code
+# Code for collecting, preprocessing and visualising data
 ## Import pacakages
 
 
@@ -172,6 +172,40 @@ fig.show()
 
 ### Line Chart
 #### Overall trend
+
+
+```python
+# Create a line plot of the exchange rate over time
+
+# Purpose of normalization is to manage the variation of scale of 10 countries' exchange rate so that they can be involved in one graph.
+def normalize_column(df):
+    min_val = df['USD'].min()
+    max_val = df['USD'].max()
+    normalized_values = (df['USD'] - min_val) / (max_val - min_val)
+    new_df = pd.DataFrame({'LOCATION':df.LOCATION, 'USD' + '_normalized': normalized_values, 'TIME': df.TIME})
+    return new_df
+
+new_df = normalize_column(df_CHN)
+new_df1 = normalize_column(df_CAN)
+new_df2 = normalize_column(df_FRA)
+new_df3 = normalize_column(df_ITA)
+new_df4 = normalize_column(df_DEU)
+new_df5 = normalize_column(df_GBR)
+new_df6 = normalize_column(df_IND)
+new_df7 = normalize_column(df_JPN)
+new_df8 = normalize_column(df_RUS)
+new_df9 = normalize_column(df_KOR)
+
+# Merge the data frames
+df_1=pd.concat([new_df,new_df1,new_df2,new_df3,new_df4,new_df5,new_df6,new_df7,new_df8,new_df9])
+df_1
+
+# Drop rows with NaN values
+df_1 = df_1.dropna()
+
+p1 = ggplot(df_1, aes(x='TIME', y='USD_normalized', color='LOCATION')) + geom_line() + labs(title='Exchange rate', x='Time', y='Exchange rate') + scale_color_discrete(name='Country') + theme_classic() +  scale_x_datetime(date_labels='%Y')
+
+```
 
 
 ```python

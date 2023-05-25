@@ -74,8 +74,15 @@ We use 'Pandas' to get the final 10 dataframe for exploratory analysis which inc
 ### Visualisation
 [Map](Map.html)
 
-Line chart
+**Line chart-Overall trend**
 
-![Inflation](./plots/inflation.png)
+<div style="display: flex; justify-content: space-between;">
+    <img src="./plots/exchange_rate.png" alt="Exchange Rate" width="400" />
+    <img src="./plots/inflation.png" alt="Inflation" width="400" />
+</div>
+
 
 [Link to view code](Data.md)
+
+
+## 📈 Exploratory Data Analysis
