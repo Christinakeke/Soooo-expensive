@@ -72,7 +72,7 @@ In this step, our analysis is based on every country since we found that the cor
 We use 'Pandas' to get the final 10 dataframe for exploratory analysis which includes 10 countries' CPI and exchange rate from 2013-2022.
 
 ### Visualisation
-[Map](file:///Users/qiatanshuihuahewu/Map.html#/map)
+[Map](Map.html)
 
 Line chart
 
