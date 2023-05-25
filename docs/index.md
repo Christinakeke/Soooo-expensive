@@ -140,29 +140,34 @@ In the second part of our study, we take steps closer to every country.
 
   <strong>Pearson correlation coefficient</strong>
   
-  <br>
-
-  <table>
-  <tr>
-    <th>Time period</th>
-    <th>Pearson correlation coefficient</th>
-    <th>p-value</th>
-  </tr>
-  <tr>
-    <td>2013-2022</td>
-    <td>-0.2627887142427475</td>
-    <td>0.003734956600827832</td>
-  </tr>
-  <tr>
-    <td>2013-2017</td>
-    <td>0.34047467667291464</td>
-    <td>0.007770841578111888</td>
-  </tr>
-  <tr>
-    <td>2018-2022</td>
-    <td>-0.5877126878699966</td>
-    <td>7.935444328076864e-07</td>
-  </tr>
-  </table>
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/China.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>-0.2627887142427475</td>
+                 <td>0.003734956600827832</td>
+             </tr>
+             <tr>
+                 <td>2013-2017</td>
+                 <td>0.34047467667291464</td>
+                 <td>0.007770841578111888</td>
+             </tr>
+             <tr>
+                 <td>2018-2022</td>
+                 <td>-0.5877126878699966</td>
+                 <td>7.935444328076864e-07</td>
+             </tr>
+         </table>
+      </div>
+  </div>
 
 </details>
