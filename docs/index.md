@@ -81,6 +81,8 @@ We use the following visualisation to show the overall trend of exchange rate an
 
 [**Map**](Map.html)
 
+<br>
+
 **Line chart**
 
 <div style="display: flex; justify-content: space-between;">
@@ -89,6 +91,8 @@ We use the following visualisation to show the overall trend of exchange rate an
 </div>
 
 We found that the variation of exchange rate and inflation is different in different countries, so we further investigate the correlation between them in each country.
+
+<br>
 
 **Country trend**
 
@@ -101,6 +105,9 @@ Here is the example of China and Russia:
     <img src="./plots/Russia.png" alt="Exchange rate and CPI in Russia" width="400" />
 </div>
 
+We will specify the country trend in the following part.
+
+<br>
 
 *Here is the link for code used in data collection and preprocessing*
 [Link to view code](Data.md)<br><br>
@@ -141,7 +148,12 @@ In the second part of our study, we take steps closer to every country.
   
   <br>
 
-  This is the content of the Pearson correlation coefficient section.
+| Time period    | Pearson correlation coefficient |   p-value              |
+| -------------- | ------------------------------  | ---------------------- |
+| 2013-2022      | -0.2627887142427475             | 0.003734956600827832   |
+| 2013-2017      | 0.34047467667291464             | 0.007770841578111888   |
+| 2018-2022      | -0.5877126878699966             | 7.935444328076864e-07  |
+
 
 </details>
 
