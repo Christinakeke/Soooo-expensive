@@ -146,12 +146,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/China.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
                  <th style="width: 30%;">Pearson correlation coefficient</th>
-                 <th style="width: 40%;">p-value</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -209,7 +209,7 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/Canada.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
@@ -277,12 +277,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/Germany.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
                  <th style="width: 30%;">Pearson correlation coefficient</th>
-                 <th style="width: 40%;">p-value</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td >2013-2022</td>
@@ -335,12 +335,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/France.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
                  <th style="width: 30%;">Pearson correlation coefficient</th>
-                 <th style="width: 40%;">p-value</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -403,12 +403,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/UK.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
                  <th style="width: 30%;">Pearson correlation coefficient</th>
-                 <th style="width: 40%;">p-value</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -476,12 +476,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/India.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
                  <th style="width: 30%;">Pearson correlation coefficient</th>
-                 <th style="width: 40%;">p-value</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -544,12 +544,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/India.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
                  <th style="width: 30%;">Pearson correlation coefficient</th>
-                 <th style="width: 40%;">p-value</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -612,7 +612,7 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/Japan.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
@@ -632,7 +632,7 @@ In the second part of our study, we take steps closer to every country.
              <tr>
                  <td>2019-2022</td>
                  <td>-0.930212</td>
-                 <td>1.185864e-21</td>
+                 <td>1.1859e-21</td>
              </tr>
          </table>
       </div>
@@ -675,12 +675,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/South Korea.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
                  <th style="width: 30%;">Pearson correlation coefficient</th>
-                 <th style="width: 40%;">p-value</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -695,7 +695,7 @@ In the second part of our study, we take steps closer to every country.
              <tr>
                  <td>2021-2022</td>
                  <td>-0.918204</td>
-                 <td>2.579057e-10</td>
+                 <td>2.5791e-10</td>
              </tr>
          </table>
       </div>
@@ -738,12 +738,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%;">
           <img src="./plots/Russia.png" style="width: 100%;">
       </div>
-      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 20px;">
           <table style="margin: auto; width: 100%;">
              <tr>
                  <th style="width: 30%;">Time period</th>
                  <th style="width: 30%;">Pearson correlation coefficient</th>
-                 <th style="width: 40%;">p-value</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2020-2022</td>
