@@ -174,7 +174,7 @@ In the second part of our study, we take steps closer to every country.
 
 </details>
 
-<br><br>
+<br>
 
 <details>
   <summary><strong><u>Canada</u></strong></summary>
@@ -183,7 +183,7 @@ In the second part of our study, we take steps closer to every country.
   
   <div style="display: flex;">
       <div style="flex: 50%;">
-          <img src="./plots/CanadaOLS.png" alt="Best-fit line" style="width: 100%;">
+          <img src="./plots/Canada_OLS.png" alt="Best-fit line" style="width: 100%;">
       </div>
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
           <table style="margin: auto;">
@@ -237,9 +237,10 @@ In the second part of our study, we take steps closer to every country.
                  <td>2021-2022</td>
                  <td>-0.534864</td>
                  <td>0.007083</td>
+             </tr>
          </table>
       </div>
   </div>
-
+  
 </details>
 
