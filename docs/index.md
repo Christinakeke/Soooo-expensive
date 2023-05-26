@@ -125,7 +125,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>-34.032598</td>
@@ -166,7 +166,7 @@ In the second part of our study, we take steps closer to every country.
              <tr>
                  <td>2018-2022</td>
                  <td>-0.587713</td>
-                 <td>7.9354e-07</td>
+                 <td>7.935e-07</td>
              </tr>
          </table>
       </div>
@@ -188,7 +188,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>-4.316177</td>
