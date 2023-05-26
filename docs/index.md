@@ -166,14 +166,14 @@ In the second part of our study, we take steps closer to every country.
              <tr>
                  <td>2018-2022</td>
                  <td>-0.587713</td>
-                 <td>7.935444e-07</td>
+                 <td>7.9354e-07</td>
              </tr>
          </table>
       </div>
   </div>
 
 </details>
-<br>
+
 <details>
   <summary><strong><u>Canada</u></strong></summary>
 
@@ -229,7 +229,7 @@ In the second part of our study, we take steps closer to every country.
              <tr>
                  <td>2020-2021</td>
                  <td>0.750873</td>
-                 <td>2.363534e-05</td>
+                 <td>2.3635e-05</td>
              </tr>
              <tr>
                  <td>2021-2022</td>
@@ -242,3 +242,516 @@ In the second part of our study, we take steps closer to every country.
 
 </details>
 
+<details>
+  <summary><strong><u>Germany</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/Germany_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>-8.809991</td>
+                  <td>0.137069</td>
+                  <td>0.000032</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/Germany.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto; width: 100%;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>-0.370230</td>
+                 <td>3.1533e-05</td>
+             </tr>
+             <tr>
+                 <td>2021-2022</td>
+                 <td>-0.963904</td>
+                 <td>3.9514e-14</td>
+             </tr>
+         </table>
+      </div>
+  </div>
+
+</details>
+
+<details>
+  <summary><strong><u>France</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/France_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>-5.934358</td>
+                  <td>0.140726</td>
+                  <td>0.000024</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/France.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto; width: 100%;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>-0.375135</td>
+                 <td>2.4256e-05</td>
+             </tr>
+             <tr>
+                 <td>2013-2015</td>
+                 <td>0.779767</td>
+                 <td>2.0833e-08</td>
+             </tr>
+             <tr>
+                 <td>2016-2018</td>
+                 <td>0.420082</td>
+                 <td>0.010748</td>
+             </tr>
+             <tr>
+                 <td>2019-2022</td>
+                 <td>-0.744739</td>
+                 <td>1.2872e-09</td>
+             </tr>
+         </table>
+      </div>
+  </div>
+
+</details>
+
+<details>
+  <summary><strong><u>United Kingdom</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/UK_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>-64.43446</td>
+                  <td>0.049808</td>
+                  <td>0.014278</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/UK.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto; width: 100%;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>-0.223177</td>
+                 <td>0.014278</td>
+             </tr>
+             <tr>
+                 <td>2013-2015</td>
+                 <td>0.503770</td>
+                 <td>2.0833e-08</td>
+             </tr>
+             <tr>
+                 <td>2016</td>
+                 <td>-0.933754</td>
+                 <td>8.9842e-06</td>
+             </tr>
+             <tr>
+                 <td>2017-2021</td>
+                 <td>0.438531</td>
+                 <td>0.000457</td>
+             </tr>
+             <tr>
+                 <td>2022</td>
+                 <td>-0.899450</td>
+                 <td>6.8227e-05</td>
+             </tr>
+         </table>
+      </div>
+  </div>
+
+</details>
+
+<details>
+  <summary><strong><u>India</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/India_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>608.83772</td>
+                  <td>0.140353</td>
+                  <td>0.000025</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/India.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto; width: 100%;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>0.374637</td>
+                 <td>2.4915e-05</td>
+             </tr>
+             <tr>
+                 <td>2013-2016</td>
+                 <td>0.715660</td>
+                 <td>1.0851e-08</td>
+             </tr>
+             <tr>
+                 <td>2017-2018</td>
+                 <td>-0.576939</td>
+                 <td>0.003162</td>
+             </tr>
+             <tr>
+                 <td>2019-2022</td>
+                 <td>0.428531</td>
+                 <td>0.002375</td>
+             </tr>
+         </table>
+      </div>
+  </div>
+
+</details>
+
+<details>
+  <summary><strong><u>Italy</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/Italy_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>-9.691246</td>
+                  <td>0.135208</td>
+                  <td>0.000036</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/India.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto; width: 100%;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>-0.367707</td>
+                 <td>3.6030e-05</td>
+             </tr>
+             <tr>
+                 <td>2013-2016</td>
+                 <td>0.590375</td>
+                 <td>1.0020e-05</td>
+             </tr>
+             <tr>
+                 <td>2017</td>
+                 <td>-0.679280</td>
+                 <td>0.015118</td>
+             </tr>
+             <tr>
+                 <td>2018-2022</td>
+                 <td>-0.699420</td>
+                 <td>5.0806e-10</td>
+             </tr>
+         </table>
+      </div>
+  </div>
+
+</details>
+
+<details>
+  <summary><strong><u>Japan</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/Japan_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>-643.3588</td>
+                  <td>0.161692</td>
+                  <td>0.000005</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/Japan.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto; width: 100%;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>-0.402109</td>
+                 <td>5.3023e-06</td>
+             </tr>
+             <tr>
+                 <td>2017-2018</td>
+                 <td>0.352837</td>
+                 <td>0.090808</td>
+             </tr>
+             <tr>
+                 <td>2019-2022</td>
+                 <td>-0.930212</td>
+                 <td>1.185864e-21</td>
+             </tr>
+         </table>
+      </div>
+  </div>
+
+</details>
+
+<details>
+  <summary><strong><u>South Korea</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/SK_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>-14241.785</td>
+                  <td>0.274445</td>
+                  <td>8.2468e-10</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/South Korea.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto; width: 100%;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>-0.523875</td>
+                 <td>8.2468e-10</td>
+             </tr>
+             <tr>
+                 <td>2013-2020</td>
+                 <td>0.382084</td>
+                 <td>0.000122</td>
+             </tr>
+             <tr>
+                 <td>2021-2022</td>
+                 <td>-0.918204</td>
+                 <td>2.579057e-10</td>
+             </tr>
+         </table>
+      </div>
+  </div>
+
+</details>
+
+<details>
+  <summary><strong><u>Russia</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/Russia_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>NaN</td>
+                  <td>NaN</td>
+                  <td>NaN</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/Russia.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto; width: 100%;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2020-2022</td>
+                 <td>-0.872247</td>
+                 <td>2.2338e-05</td>
+             </tr>
+         </table>
+      </div>
+  </div>
+
+</details>
