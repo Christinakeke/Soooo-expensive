@@ -174,3 +174,72 @@ In the second part of our study, we take steps closer to every country.
 
 </details>
 
+<br><br>
+
+<details>
+  <summary><strong><u>Canada</u></strong></summary>
+
+  <strong>OLS regression + best-fit line</strong>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/CanadaOLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-values</th>
+              </tr>
+              <tr>
+                  <td>-4.316177</td>
+                  <td>0.031361</td>
+                  <td>0.052997</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+  <br>
+
+  <strong>Pearson correlation coefficient</strong>
+
+  <br>
+  
+  <div style="display: flex;">
+      <div style="flex: 50%;">
+          <img src="./plots/Canada.png" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
+          <table style="margin: auto;">
+             <tr>
+                 <th>Time period</th>
+                 <th>Pearson correlation coefficient</th>
+                 <th>p-value</th>
+             </tr>
+             <tr>
+                 <td>2013-2022</td>
+                 <td>-0.177090</td>
+                 <td>0.052997</td>
+             </tr>
+             <tr>
+                 <td>2013-2019</td>
+                 <td>-0.353245</td>
+                 <td>0.000981</td>
+             </tr>
+             <tr>
+                 <td>2020-2021</td>
+                 <td>0.750873</td>
+                 <td>2.363534e-05</td>
+             </tr>
+             <tr>
+                 <td>2021-2022</td>
+                 <td>-0.534864</td>
+                 <td>0.007083</td>
+         </table>
+      </div>
+  </div>
+
+</details>
+
