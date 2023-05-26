@@ -149,24 +149,24 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
-                 <td>2013-2022</td>
-                 <td>-0.262789</td>
-                 <td>0.003735</td>
+                 <td style="width: 30%;">2013-2022</td>
+                 <td style="width: 30%;">-0.262789</td>
+                 <td style="width: 40%;">0.003735</td>
              </tr>
              <tr>
-                 <td>2013-2017</td>
-                 <td>0.340475</td>
-                 <td>0.007771</td>
+                 <td style="width: 30%;">2013-2017</td>
+                 <td style="width: 30%;">0.340475</td>
+                 <td style="width: 40%;">0.007771</td>
              </tr>
              <tr>
-                 <td>2018-2022</td>
-                 <td>-0.587713</td>
-                 <td>7.935e-07</td>
+                 <td style="width: 30%;">2018-2022</td>
+                 <td style="width: 30%;">-0.587713</td>
+                 <td style="width: 40%;">7.9354e-07</td>
              </tr>
          </table>
       </div>
