@@ -147,7 +147,7 @@ In the second part of our study, we take steps closer to every country.
           <img src="./plots/China.png" style="width: 100%;">
       </div>
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
-          <table style="margin: auto;">
+          <table style="margin: auto; width: 100%;">
              <tr>
                  <th>Time period</th>
                  <th>Pearson correlation coefficient</th>
@@ -173,9 +173,7 @@ In the second part of our study, we take steps closer to every country.
   </div>
 
 </details>
-
 <br>
-
 <details>
   <summary><strong><u>Canada</u></strong></summary>
 
@@ -212,7 +210,7 @@ In the second part of our study, we take steps closer to every country.
           <img src="./plots/Canada.png" style="width: 100%;">
       </div>
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
-          <table style="margin: auto;">
+          <table style="margin: auto; width: 100%;">
              <tr>
                  <th>Time period</th>
                  <th>Pearson correlation coefficient</th>
@@ -241,6 +239,6 @@ In the second part of our study, we take steps closer to every country.
          </table>
       </div>
   </div>
-  
+
 </details>
 
