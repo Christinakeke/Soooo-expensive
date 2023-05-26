@@ -748,7 +748,7 @@ In the second part of our study, we take steps closer to every country.
              <tr>
                  <td>2020-2022</td>
                  <td>-0.872247</td>
-                 <td>2.2338e-05</td>
+                 <td>2.2338e^-05</td>
              </tr>
          </table>
       </div>
