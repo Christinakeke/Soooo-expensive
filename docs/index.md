@@ -212,9 +212,9 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
