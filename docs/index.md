@@ -88,7 +88,7 @@ We use the following visualisation to show the overall trend of exchange rate an
     <img src="./plots/inflation.png" alt="Inflation" width="400" />
 </div>
 
-We found that the variation of exchange rate and inflation is different in different countries, so we further investigate the correlation between them in each country.<br>
+We found that the variation of exchange rate and inflation is different in different countries, so we further investigate the correlation between them in each country.<br><br>
 
 **Country trend**
 
@@ -748,10 +748,21 @@ In the second part of our study, we take steps closer to every country.
              <tr>
                  <td>2020-2022</td>
                  <td>-0.872247</td>
-                 <td>2.2338e^-05</td>
+                 <td>2.2338e-05</td>
              </tr>
          </table>
       </div>
   </div>
 
 </details>
+
+<br><br>
+
+## 🖼️ Limitations 
+
+<br><br>
+
+## 🖋️ Conclusions
+
+<br><br>
+
