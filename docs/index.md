@@ -154,19 +154,19 @@ In the second part of our study, we take steps closer to every country.
                  <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
-                 <td style="width: 30%;">2013-2022</td>
-                 <td style="width: 30%;">-0.262789</td>
-                 <td style="width: 40%;">0.003735</td>
+                 <td>2013-2022</td>
+                 <td>-0.262789</td>
+                 <td>0.003735</td>
              </tr>
              <tr>
-                 <td style="width: 30%;">2013-2017</td>
-                 <td style="width: 30%;">0.340475</td>
-                 <td style="width: 40%;">0.007771</td>
+                 <td>2013-2017</td>
+                 <td>0.340475</td>
+                 <td>0.007771</td>
              </tr>
              <tr>
-                 <td style="width: 30%;">2018-2022</td>
-                 <td style="width: 30%;">-0.587713</td>
-                 <td style="width: 40%;">7.9354e-07</td>
+                 <td>2018-2022</td>
+                 <td>-0.587713</td>
+                 <td>7.9354e-07</td>
              </tr>
          </table>
       </div>
@@ -256,7 +256,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>-8.809991</td>
@@ -280,12 +280,12 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
-                 <td>2013-2022</td>
+                 <td >2013-2022</td>
                  <td>-0.370230</td>
                  <td>3.1533e-05</td>
              </tr>
@@ -314,7 +314,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>-5.934358</td>
@@ -338,9 +338,9 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -382,7 +382,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>-64.43446</td>
@@ -406,9 +406,9 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -455,7 +455,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>608.83772</td>
@@ -479,9 +479,9 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -523,7 +523,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>-9.691246</td>
@@ -547,9 +547,9 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -591,7 +591,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>-643.3588</td>
@@ -615,9 +615,9 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 30%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -654,7 +654,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>-14241.785</td>
@@ -678,9 +678,9 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
                  <td>2013-2022</td>
@@ -717,7 +717,7 @@ In the second part of our study, we take steps closer to every country.
               <tr>
                   <th>Coefficients</th>
                   <th>R-squared</th>
-                  <th>p-values</th>
+                  <th>p-value</th>
               </tr>
               <tr>
                   <td>NaN</td>
@@ -741,9 +741,9 @@ In the second part of our study, we take steps closer to every country.
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 15px;">
           <table style="margin: auto; width: 100%;">
              <tr>
-                 <th>Time period</th>
-                 <th>Pearson correlation coefficient</th>
-                 <th>p-value</th>
+                 <th style="width: 30%;">Time period</th>
+                 <th style="width: 30%;">Pearson correlation coefficient</th>
+                 <th style="width: 40%;">p-value</th>
              </tr>
              <tr>
                  <td>2020-2022</td>
