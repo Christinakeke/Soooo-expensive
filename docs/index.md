@@ -115,7 +115,7 @@ We will specify the country trend in the following part.<br>
 In the second part of our study, we take steps closer to every country. We investigate the correlation between exchange rate and inflation in each country by using OLS regression. We will visualize the correlation by using best-fit line and Pearson correlation coefficient. Click on the country name to see details.
 
 <details>
-  <summary><strong><u>China</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>China</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -180,11 +180,12 @@ In the second part of our study, we take steps closer to every country. We inves
 From the graph of best-fit line, we could observe a negative correlation between exchange rate and inflation in China. In the time period of 2013-2017, the correlation is positive, which means that the exchange rate and inflation are positively correlated. In the time period of 2018-2022, the correlation is negative, which means that the exchange rate and inflation are negatively correlated. In the ten-year period, the correlation is negative. 
 
 The p-values are less than 0.05. Therefore, we can conclude that the correlation we get between exchange rate and inflation in China is significant. However, time effect is also critical in this case. The correlation between exchange rate and inflation in China varies in different time periods.
+<br><br>
 
 </details>
 
 <details>
-  <summary><strong><u>Canada</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>Canada</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -251,11 +252,11 @@ The p-values are less than 0.05. Therefore, we can conclude that the correlation
 
 <br>
 Unlike the result of China, the p-value of Canada is greater than 0.05. Therefore, we cannot conclude that the correlation between exchange rate and inflation in Canada is significant. However, the R-squared is 0.031361, which means that the correlation between exchange rate and inflation in Canada is weak. From the graph of best-fit line, we could observe a negative correlation between exchange rate and inflation in Canada. 
-
+<br><br>
 </details>
 
 <details>
-  <summary><strong><u>Germany</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>Germany</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -312,11 +313,11 @@ Unlike the result of China, the p-value of Canada is greater than 0.05. Therefor
 
 <br>
 For Germany, the relationship between inflation and exchange rates is clearer and more consistent. The p-values are all less than 0.05 and negative, which means that the correlation between exchange rate and inflation in Germany is significant and negative. The R-squared is 0.137069, which means that the correlation between exchange rate and inflation in Germany is relatively strong. Also, from the graph of best-fit line, we could observe a negative correlation between exchange rate and inflation in Germany.
-
+<br><br>
 </details>
 
 <details>
-  <summary><strong><u>France</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>France</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -383,11 +384,11 @@ For Germany, the relationship between inflation and exchange rates is clearer an
 
 <br>
 For France, the correlation netween inflation rate and exchange rate over the past 10 years is negative. However, if the focus is on a smaller time period, we could see that before 2019, the correlation had been positive. The p-values are all less than 0.05, which means that the correlation between exchange rate and inflation in France is significant. The R-squared is 0.140726, which means that the correlation between exchange rate and inflation in France is relatively strong. Although the best-fit line shows a negative correlation, there are some outliers in the graph which might bias the correlation we found. 
-
+<br><br>
 </details>
 
 <details>
-  <summary><strong><u>United Kingdom</u></strong></summary>
+  <summary><font color="#0E6655 " size=5><strong><u>United Kingdom</u></strong></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -463,7 +464,7 @@ In the United Kingdom, the correlation between exchange rate and inflation is ne
 </details>
 
 <details>
-  <summary><strong><u>India</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>India</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -533,7 +534,7 @@ India is quite differnet from other countries. The correlation between exchange 
 </details>
 
 <details>
-  <summary><strong><u>Italy</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>Italy</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -603,7 +604,7 @@ For Itlay, the correlation between exchange rate and inflation is negative. The 
 </details>
 
 <details>
-  <summary><strong><u>Japan</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>Japan</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -668,7 +669,7 @@ For Japan, the correlation between exchange rate and inflation is negative. Accr
 </details>
 
 <details>
-  <summary><strong><u>South Korea</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>South Korea</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -734,7 +735,7 @@ The correlation of inflation and exchange rate is negative if we look at the who
 </details>
 
 <details>
-  <summary><strong><u>Russia</u></strong></summary>
+  <summary><font color="#0E6655" size=5><strong><u>Russia</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -798,7 +799,7 @@ There are many other factors could affect the exchange rate and inflation. For e
 
 ## 🖋️ Conclusions
 
-In this study, we found that the correlation between exchange rate and inflation is negative in most countries. However, the correlation is not consistent in some countries. But during last 3 to 5 years, the correlation between exchange rate and inflation is negative in most countries. As a result, if we observe a decrease in exchange rate, we can expect an increase in inflation in most countries. As a result, we could use this correlation and consider the exchange rate as a sign to decide our saving decisions, consumption decisions in a short period. But it is also important to conisder some unsual events and other factors that could affect the exchange rate and inflation. The correlation we found could be one of many indicators we could use to make our own decisions in short term. 
+In this study, to some extent, we found that the correlation between exchange rate and inflation is negative in most countries. The correlation is statiscally significant and realtively strong. Although the correlation is not consistent in some countries, the correlation between exchange rate and inflation is negative in most countries for last three to five years. As a result, if we observe a decrease in exchange rate, we can expect an increase in inflation in most countries. As a result, we could use this correlation and consider the exchange rate as a sign to decide our saving decisions, consumption decisions in a short period. But it is also important to conisder some unsual events and other factors that could affect the exchange rate and inflation. The correlation we found could be one of many indicators we could use to make our own decisions in short term. 
 
 <br><br>
 
