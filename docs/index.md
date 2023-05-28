@@ -388,7 +388,7 @@ For France, the correlation netween inflation rate and exchange rate over the pa
 </details>
 
 <details>
-  <summary><font color="#0E6655 " size=5><strong><u>United Kingdom</u></strong></summary>
+   <summary><font color="#0E6655 " size=5><strong><u>United Kingdom</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
