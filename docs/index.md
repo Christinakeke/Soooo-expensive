@@ -117,7 +117,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>China</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -141,7 +141,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -180,7 +180,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>Canada</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -204,7 +204,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -248,7 +248,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>Germany</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -272,7 +272,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -306,7 +306,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>France</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -330,7 +330,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -374,7 +374,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>United Kingdom</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -398,7 +398,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -447,7 +447,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>India</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -471,7 +471,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -515,7 +515,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>Italy</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -539,7 +539,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -583,7 +583,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>Japan</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -607,7 +607,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -646,7 +646,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>South Korea</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -670,7 +670,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
@@ -709,7 +709,7 @@ In the second part of our study, we take steps closer to every country. We inves
 <details>
   <summary><strong><u>Russia</u></strong></summary>
 
-  <strong>OLS regression + best-fit line</strong>
+  <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
@@ -733,7 +733,7 @@ In the second part of our study, we take steps closer to every country. We inves
 
   <br>
 
-  <strong>Pearson correlation coefficient</strong>
+  <font color="#29988C"><strong>Pearson correlation coefficient</strong></font>
 
   <br>
   
