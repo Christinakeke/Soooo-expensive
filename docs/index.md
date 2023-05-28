@@ -79,7 +79,10 @@ The complete cleaning and preprocessing process can be found in link at the end 
 
 We use the following visualisation to show the overall trend of exchange rate and inflation in each country.
 
-[**Map**](Map.html)
+**Map**
+
+From this map, we are able to discover the inflation level around the world geographically. Yellow represents a high level of inflation and purple represents a low level of inflation. We can see that countries in Europe and North America are maintaining moderate levels of inflation, countries in East Asia are experiencing lower levels of inflation and Russia is experiencing higher levels of inflation.
+Click on this link to view the [Map](Map.html).
 
 **Line chart**
 
@@ -109,7 +112,7 @@ We will specify the country trend in the following part.<br>
 
 ## 📈 Exploratory Data Analysis
 
-In the second part of our study, we take steps closer to every country.
+In the second part of our study, we take steps closer to every country. We investigate the correlation between exchange rate and inflation in each country by using OLS regression. We will visualize the correlation by using best-fit line and Pearson correlation coefficient.
 
 <details>
   <summary><strong><u>China</u></strong></summary>
