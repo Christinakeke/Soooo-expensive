@@ -74,10 +74,6 @@ perform_linear_regression(df,'China')
     p-values: USD    0.003735
     dtype: float64
 
-
-
-    
-![png](output_6_1.png)
     
 
 
@@ -126,12 +122,6 @@ perform_linear_regression(df1,'Canada')
     R-squared: 0.031360977994277506
     p-values: USD    0.052997
     dtype: float64
-
-
-
-    
-![png](output_11_1.png)
-    
 
 
 
@@ -190,12 +180,6 @@ perform_linear_regression(df2,'Germany')
 
 
 
-    
-![png](output_17_1.png)
-    
-
-
-
 ```python
 calculate_pearson_correlation(df2)
 ```
@@ -229,11 +213,6 @@ perform_linear_regression(df3,'France')
     p-values: USD    0.000024
     dtype: float64
 
-
-
-    
-![png](output_21_1.png)
-    
 
 
 
@@ -289,12 +268,6 @@ perform_linear_regression(df4,'United Kingdom')
     R-squared: 0.04980810404447522
     p-values: USD    0.014278
     dtype: float64
-
-
-
-    
-![png](output_27_1.png)
-    
 
 
 
@@ -363,12 +336,6 @@ perform_linear_regression(df5,'India')
 
 
 
-    
-![png](output_34_1.png)
-    
-
-
-
 ```python
 calculate_pearson_correlation(df5)
 ```
@@ -422,11 +389,6 @@ perform_linear_regression(df6,'Italy')
     p-values: USD    0.000036
     dtype: float64
 
-
-
-    
-![png](output_40_1.png)
-    
 
 
 
@@ -485,12 +447,6 @@ perform_linear_regression(df7,'Japan')
 
 
 
-    
-![png](output_46_1.png)
-    
-
-
-
 ```python
 calculate_pearson_correlation(df7)
 ```
@@ -536,12 +492,6 @@ perform_linear_regression(df8,'South Korea')
 
 
 
-    
-![png](output_51_1.png)
-    
-
-
-
 ```python
 calculate_pearson_correlation(df8)
 ```
@@ -584,12 +534,6 @@ perform_linear_regression(df9,'Russia')
     R-squared: nan
     p-values: USD   NaN
     dtype: float64
-
-
-
-    
-![png](output_56_1.png)
-    
 
 
 
