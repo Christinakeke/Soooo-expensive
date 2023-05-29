@@ -74,7 +74,7 @@ In this step, our analysis is based on every country since we found that the cor
 
 ### Data collection + cleaning + preprocessing
 
-We mainly use ‘pandas' package to obtain the final 10 data frames for exploratory analysis, each including the country's CPI and exchange rate for the period 2013-2022.
+We mainly use ‘pandas' package to obtain the final 10 data frames for exploratory analysis, each including the country's CPI and exchange rate for the period 2013-2022. The exchange rate data is collected by using API we found from "apilayer" and the CPI data is static dataset we found from OECD website. 
 
 The complete cleaning and preprocessing process can be found in link at the end of this part.
 
@@ -282,7 +282,7 @@ Unlike the result of China, the p-value of Canada is greater than 0.05. Therefor
   
   <br>
 
-  <font color="#29988C"><strong>daraframe of outliers</strong></font>
+  <font color="#29988C"><strong>Daraframe of outliers</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
