@@ -460,7 +460,7 @@ For France, the correlation netween inflation rate and exchange rate over the pa
 
 <br>
 In the United Kingdom, the correlation between exchange rate and inflation is negative. However, the p-value is 0.014278, which is greater than 0.05. Therefore, we cannot conclude that the correlation between exchange rate and inflation in the United Kingdom is significant. This is might caused by outliers in the graph. The R-squared is 0.049808, which means that the correlation between exchange rate and inflation we found in the United Kingdom is weak.
-
+<br><br>
 </details>
 
 <details>
@@ -530,7 +530,8 @@ In the United Kingdom, the correlation between exchange rate and inflation is ne
   </div>
 
 <br>
-India is quite differnet from other countries. The correlation between exchange rate and inflation in India is positive. The p-value is less than 0.05, which means that the correlation between exchange rate and inflation in India is significant. The R-squared is 0.140353,  the correlation relatively strong.
+India is quite differnet from other countries. The correlation between exchange rate and inflation in India is positive. The p-value is less than 0.05, which means that the correlation between exchange rate and inflation in India is significant. The R-squared is 0.140353,  the correlation relatively strong. 
+<br><br>
 </details>
 
 <details>
@@ -601,6 +602,7 @@ India is quite differnet from other countries. The correlation between exchange 
 
 <br>
 For Itlay, the correlation between exchange rate and inflation is negative. The correlation is also significant since the p-value is smaller than 0.05.  The R-squared is 0.135208, also shows that correlation between exchange rate and inflation in Italy is relatively strong. Instead of 2013-2016, the correlation between inflation and exchange rate in Italy is negative. 
+<br><br>
 </details>
 
 <details>
@@ -666,6 +668,7 @@ For Itlay, the correlation between exchange rate and inflation is negative. The 
 
 <br>
 For Japan, the correlation between exchange rate and inflation is negative. Accroding to p-value and R-squared, the correlation is  significant and relatively strong. However, the correlation between exchange rate and inflation in Japan is not consistent. The correlation between exchange rate and inflation in Japan is positive in 2013-2018, but negative in 2019-2022.
+<br><br>
 </details>
 
 <details>
@@ -731,7 +734,7 @@ For Japan, the correlation between exchange rate and inflation is negative. Accr
 
 <br>
 The correlation of inflation and exchange rate is negative if we look at the whole 10-year period. The correlation is significant and relatively strong. However, the correlation between exchange rate and inflation in South Korea is not consistent. The correlation between exchange rate and inflation in South Korea is positive in 2013-2020, but negative in 2021-2022.
-
+<br><br>
 </details>
 
 <details>
