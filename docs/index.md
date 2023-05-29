@@ -276,8 +276,10 @@ The p-values are less than 0.05. Therefore, we can conclude that the correlation
     </div>
     <div style = "flex: 50%;" >
         <img src="./plots/dataframe_CAN.png" alt="Best-fit line" style="width: 100%;">
-    <dic style="flex: 50%;">
+    <div>
+    <div style="flex: 50%;">
         hahaahahhaha
+    <div>
 </div>
 
 <br>
