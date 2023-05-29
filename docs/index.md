@@ -115,7 +115,7 @@ We will specify the country trend in the following part.<br>
 In the second part of our study, we take steps closer to every country. We investigate the correlation between exchange rate and inflation in each country by using OLS regression. We will visualize the correlation by using best-fit line and Pearson correlation coefficient. Click on the country name to see details.
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>China</u></strong></font></summary>
+  <summary><font color="#0E6655" size=7><strong><u>China</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -787,15 +787,19 @@ The correlation of inflation and exchange rate is negative if we look at the who
 
 <br>
 Russia is very differnet from all other countries. It is hard to find a correlation between exchange rate and inflation in Russia. Unlike other countries, Russia has a managed floating exchange rate system, which menas the exchange rate is not completely determined by the market. Also, after the burst of the Ukraine war, the Russian government has been imposing some  Foreign exchange restrictions and try to stablize the exchange rate. Due to the special exhange rate system in Russia, we cannot find a good correlation by just looking at the data we have. 
-</details>
-
-<br><br>
+</details><br><br>
 
 ## 🖼️ Limitations 
 
-There are many other factors could affect the exchange rate and inflation. For example, the interest rate,   the political situation, the pandemic, the war etc. We only focus on the exchange rate and inflation in this study because exchange rate can be discovered easily by the public, but other factors are not that obvious. Although we found a negative correlation between exchange rate and inflation in most countries, it is also important to include other factors if we want to find make a more accurate relation.
+We only focus on one independent and dependent variable because: 1. we want to make the result explainable — Pearson coefficients could directly demonstrate the existence and strength of correlation; 2. we have access to responsible quantitative data about inflation and exchange rate. Although our results somewhat prove the correlation, our study has some limitations.
 
-<br><br>
+1. Causality: The OLS regression and Pearson's coefficient do not provide evidence of causality. It is essential to notice that other factors may be driving both variables independently or that there may be reverse causality.
+2. Omitted Variables: OLS assumes that all relevant variables are included in the model. If important variables are omitted from the analysis, it can lead to omitted variable bias. In the case of inflation and exchange rates, there may be other factors that are not accounted for in the model but affect both variables, for example, the interest rate, the economic situation, the pandemic, the Russia-Ukarine war etc. We could expect that the war has impacted the correlation between exchange rate and inflation that caused the change in relations after 2020 in some countries.
+3. Nonlinear Relationship: Our study assumes a linear relationship between the variables based on our observation of line charts. However, the relationship between inflation and exchange rates may be nonlinear, meaning that the relationship could change at different levels of inflation or exchange rates.
+4. Time series: OLS regression assumes that the errors (residuals) are independent. However, in the case of time series data, inflation and exchange rates can often exhibit autocorrelation, meaning that past values influence current values. Autocorrelation violates the assumption of independence of errors in OLS.
+5. Generalizability: The results of our study may be specific to the period and countries or regions included in the analysis. Different countries or periods may exhibit other relationships between inflation and exchange rates.
+
+Our study provides evidence about the correlation between inflation and exchange rate; more detailed and scrutinised research is needed to provide accurate and academic-rigour results of this correlation. <br><br>
 
 ## 🖋️ Conclusions
 
