@@ -282,7 +282,7 @@ Unlike the result of China, the p-value of Canada is greater than 0.05. Therefor
   
   <br>
 
-  <font color="#29988C"><strong>daraframe of outliers</strong></font>
+  <font color="#29988C"><strong>Daraframe of outliers</strong></font>
   
   <div style="display: flex;">
       <div style="flex: 50%;">
