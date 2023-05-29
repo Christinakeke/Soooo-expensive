@@ -27,19 +27,19 @@
 </div>>
 
 ## ⚙️ Introduction
-As international students studying abroad, we have chosen this topic since it is closely related to our living standards and the way we live. Inflation measures how much more expensive a set of goods and services has become over a certain period (IMF), which is critical for us to manage the way we allocate money.
+As international students studying abroad, we have chosen this topic since it is closely related to our living standards. Inflation measures how much more expensive a set of goods and services has become over a certain period (IMF definition), which is critical for us to manage the way we allocate money.
 
-Exchange rate is important to us because we constantly face the need to be aware of the change in exchange rate as every single transaction we made is linked to the exchange rate at the time. Hence, both the inflation rate and the exchange rate are linked to our life and motivates us to investigate the correlation between them. <br><br>
+The exchange rate is important to us because we constantly face the need to be aware of the change in the exchange rate, as every single transaction we make is linked to the exchange rate at the time. Hence, inflation and exchange rates are linked to our life and motivate us to investigate their correlation. <br><br>
 
 
 ## 📝 Project description
-We want to evaluate the strength and direction of the correlations between inflation and exchange rate in top 10 GDP countries from 2013-2022. 
+We want to evaluate the strength and direction of the correlations between inflation and exchange rate. We choose the top 10 GDP countries as our samples and focus on the recent ten years of data from 2013 to 2022.
 
 We use consumer products index (CPI) as the indicator of inflation and calculate the monthly average exchange rate. 
 
 We intend to investigate the correlation between those two factors through exploratory analysis which includes visualisation, Ordinary least squares regression (OLS) and Pearsons correlation coefficient. We focus on R-square，p-value and Pearsons coefficient to evaluate  the correlations. 
 
-Our goal is to provide some insights about the relation between exhcange rate and inflation. In the end, we also mention limitations in this study.
+Our goal is to provide some insights about the relation between exhcange rate and inflation. In the end, we also mention limitations in our study.
 
 ### Plan
 
