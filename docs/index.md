@@ -254,33 +254,33 @@ The p-values are less than 0.05. Therefore, we can conclude that the correlation
 
 
 
-    <font color="#29988C"><strong>OLS regression + best-fit line without outliers</strong></font>
+  <font color="#29988C"><strong>OLS regression + best-fit line without outliers</strong></font>
 
-    <div style="display: flex;">
-        <div style="flex: 50%;">
+  <div style="display: flex;">
+    <div style="flex: 50%;">
             <img src="./plots/Canada_OLS_1.png" alt="Best-fit line" style="width: 100%;">
-        </div>
-        <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
-            <table style="margin: auto;">
-                <tr>
-                    <th>Coefficients</th>
-                    <th>R-squared</th>
-                    <th>p-value</th>
-                </tr>
-                <tr>
-                    <td>-2.01921</td>
-                    <td>0.057375</td>
-                    <td>0.018126</td>
-                </tr>
-            </table>
-        </div>
-        <div style = "flex: 50%;" >
-            <img src="./plots/dataframe_CAN.png" alt="Best-fit line" style="width: 100%;">
-        <div>
-        <div style="flex: 50%;">
-            hahaahahhaha
-        <div>
     </div>
+    <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+        <table style="margin: auto;">
+            <tr>
+                <th>Coefficients</th>
+                <th>R-squared</th>
+                <th>p-value</th>
+            </tr>
+            <tr>
+                <td>-2.01921</td>
+                <td>0.057375</td>
+                <td>0.018126</td>
+            </tr>
+        </table>
+    </div>
+    <div style = "flex: 50%;" >
+        <img src="./plots/dataframe_CAN.png" alt="Best-fit line" style="width: 100%;">
+    </div>
+    <div style="flex: 50%;">
+        hahaahahhaha
+    </div>
+  </div>
 
     <br>
 
