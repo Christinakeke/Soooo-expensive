@@ -252,7 +252,7 @@ The p-values are less than 0.05. Therefore, we can conclude that the correlation
 
   <br>
 
-  <summary><font color="#0E6655" size=4><strong><u>Canada</u></strong></font></summary>
+
 
 <font color="#29988C"><strong>OLS regression + best-fit line without outliers</strong></font>
 
