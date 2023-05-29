@@ -251,38 +251,33 @@ The p-values are less than 0.05. Therefore, we can conclude that the correlation
   </div>
 
   <br>
-
-
-
-  <font color="#29988C"><strong>OLS regression + best-fit line without outliers</strong></font>
-
+  
+  <font color="#29988C"><strong>OLS regression + best-fit line without outlier</strong></font>
+  
   <div style="display: flex;">
-    <div style="flex: 50%;">
-            <img src="./plots/Canada_OLS_1.png" alt="Best-fit line" style="width: 100%;">
-    </div>
-    <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
-        <table style="margin: auto;">
-            <tr>
-                <th>Coefficients</th>
-                <th>R-squared</th>
-                <th>p-value</th>
-            </tr>
-            <tr>
-                <td>-2.01921</td>
-                <td>0.057375</td>
-                <td>0.018126</td>
-            </tr>
-        </table>
-    </div>
-    <div style = "flex: 50%;" >
-        <img src="./plots/dataframe_CAN.png" alt="Best-fit line" style="width: 100%;">
-    </div>
-    <div style="flex: 50%;">
-        hahaahahhaha
-    </div>
+      <div style="flex: 50%;">
+          <img src="./plots/Canada_OLS.png" alt="Best-fit line" style="width: 100%;">
+      </div>
+      <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
+          <table style="margin: auto;">
+              <tr>
+                  <th>Coefficients</th>
+                  <th>R-squared</th>
+                  <th>p-value</th>
+              </tr>
+              <tr>
+                  <td>-4.316177</td>
+                  <td>0.031361</td>
+                  <td>0.052997</td>
+              </tr>
+          </table>
+      </div>
   </div>
 
-    <br>
+
+   
+
+  <br>
 
 <br>
 Unlike the result of China, the p-value of Canada is greater than 0.05. Therefore, we cannot conclude that the correlation between exchange rate and inflation in Canada is significant. However, the R-squared is 0.031361, which means that the correlation between exchange rate and inflation in Canada is weak. From the graph of best-fit line, we could observe a negative correlation between exchange rate and inflation in Canada. 
