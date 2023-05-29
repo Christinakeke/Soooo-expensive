@@ -801,13 +801,11 @@ We only focus on one independent and dependent variable because: 1. we want to m
 4. Time series: OLS regression assumes that the errors (residuals) are independent. However, in the case of time series data, inflation and exchange rates can often exhibit autocorrelation, meaning that past values influence current values. Autocorrelation violates the assumption of independence of errors in OLS.
 5. Generalizability: The results of our study may be specific to the period and countries or regions included in the analysis. Different countries or periods may exhibit other relationships between inflation and exchange rates.
 
-Our study provides evidence about the correlation between inflation and exchange rate; more detailed and scrutinised research is needed to provide accurate and academic-rigour results of this correlation. 
-
-<br><br>
+Our study provides evidence about the correlation between inflation and exchange rate; more detailed and scrutinised research is needed to provide accurate and academic-rigour results of this correlation. <br><br>
 
 ## 🖋️ Conclusions
 
-In this study, to some extent, we found that the correlation between exchange rate and inflation is negative in most countries. The correlation is statiscally significant and realtively strong. Although the correlation is not consistent in some countries, the correlation between exchange rate and inflation is negative in most countries for last three to five years. As a result, if we observe a decrease in exchange rate, we can expect an increase in inflation in most countries. As a result, we could use this correlation and consider the exchange rate as a sign to decide our saving decisions, consumption decisions in a short period. But it is also important to conisder some unsual events and other factors that could affect the exchange rate and inflation. The correlation we found could be one of many indicators we could use to make our own decisions in short term. 
+In this study, our analysis revealed a noteworthy finding regarding the relationship between exchange rates and inflation across various countries. To a certain extent, we observed a negative correlation between these two variables in most countries. This negative correlation was found to be statistically significant and relatively strong. While the consistency of the correlation varied across some countries, a general pattern emerged, indicating negative correlations over the past three to five years. This implies that a decrease in the exchange rate tends to coincide with an increase in inflation. As a result, this correlation could be employed as an informative indicator for making short-term decisions regarding savings and consumption. However, it is crucial to exercise caution and consider the influence of unusual events and other factors that could impact both the exchange rate and inflation. The correlation identified in our study is just one of many indicators that can aid in making informed decisions in the short term. By taking into account multiple factors and assessing the overall economic environment, individuals can make more well-rounded decisions.
 
 <br><br>
 
