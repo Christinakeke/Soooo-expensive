@@ -788,6 +788,8 @@ The correlation of inflation and exchange rate is negative if we look at the who
 <br>
 Russia is very differnet from all other countries. It is hard to find a correlation between exchange rate and inflation in Russia. Unlike other countries, Russia has a managed floating exchange rate system, which menas the exchange rate is not completely determined by the market. Also, after the burst of the Ukraine war, the Russian government has been imposing some  Foreign exchange restrictions and try to stablize the exchange rate. Due to the special exhange rate system in Russia, we cannot find a good correlation by just looking at the data we have. 
 </details><br>
+*Here is the link for code used in exploratory analysis*
+[Link to view code](Exploratory_analysis.md)<br><br>
 
 ## 🖼️ Limitations 
 
@@ -799,7 +801,9 @@ We only focus on one independent and dependent variable because: 1. we want to m
 4. Time series: OLS regression assumes that the errors (residuals) are independent. However, in the case of time series data, inflation and exchange rates can often exhibit autocorrelation, meaning that past values influence current values. Autocorrelation violates the assumption of independence of errors in OLS.
 5. Generalizability: The results of our study may be specific to the period and countries or regions included in the analysis. Different countries or periods may exhibit other relationships between inflation and exchange rates.
 
-Our study provides evidence about the correlation between inflation and exchange rate; more detailed and scrutinised research is needed to provide accurate and academic-rigour results of this correlation. <br><br>
+Our study provides evidence about the correlation between inflation and exchange rate; more detailed and scrutinised research is needed to provide accurate and academic-rigour results of this correlation. 
+
+<br><br>
 
 ## 🖋️ Conclusions
 
