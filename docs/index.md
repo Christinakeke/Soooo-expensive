@@ -115,7 +115,7 @@ We will specify the country trend in the following part.<br>
 In the second part of our study, we take steps closer to every country. We investigate the correlation between exchange rate and inflation in each country by using OLS regression. We will visualize the correlation by using best-fit line and Pearson correlation coefficient. Click on the country name to see details.
 
 <details>
-  <summary><font color="#0E6655" size=7><strong><u>China</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>China</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -185,7 +185,7 @@ The p-values are less than 0.05. Therefore, we can conclude that the correlation
 </details>
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>Canada</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>Canada</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -256,7 +256,7 @@ Unlike the result of China, the p-value of Canada is greater than 0.05. Therefor
 </details>
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>Germany</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>Germany</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -317,7 +317,7 @@ For Germany, the relationship between inflation and exchange rates is clearer an
 </details>
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>France</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>France</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -388,7 +388,7 @@ For France, the correlation netween inflation rate and exchange rate over the pa
 </details>
 
 <details>
-   <summary><font color="#0E6655 " size=5><strong><u>United Kingdom</u></strong></font></summary>
+   <summary><font color="#0E6655 " size=4><strong><u>United Kingdom</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -464,7 +464,7 @@ In the United Kingdom, the correlation between exchange rate and inflation is ne
 </details>
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>India</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>India</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -534,7 +534,7 @@ India is quite differnet from other countries. The correlation between exchange 
 </details>
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>Italy</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>Italy</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -604,7 +604,7 @@ For Itlay, the correlation between exchange rate and inflation is negative. The 
 </details>
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>Japan</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>Japan</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -669,7 +669,7 @@ For Japan, the correlation between exchange rate and inflation is negative. Accr
 </details>
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>South Korea</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>South Korea</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -735,7 +735,7 @@ The correlation of inflation and exchange rate is negative if we look at the who
 </details>
 
 <details>
-  <summary><font color="#0E6655" size=5><strong><u>Russia</u></strong></font></summary>
+  <summary><font color="#0E6655" size=4><strong><u>Russia</u></strong></font></summary>
 
   <font color="#29988C"><strong>OLS regression + best-fit line</strong></font>
   
@@ -787,7 +787,7 @@ The correlation of inflation and exchange rate is negative if we look at the who
 
 <br>
 Russia is very differnet from all other countries. It is hard to find a correlation between exchange rate and inflation in Russia. Unlike other countries, Russia has a managed floating exchange rate system, which menas the exchange rate is not completely determined by the market. Also, after the burst of the Ukraine war, the Russian government has been imposing some  Foreign exchange restrictions and try to stablize the exchange rate. Due to the special exhange rate system in Russia, we cannot find a good correlation by just looking at the data we have. 
-</details><br><br>
+</details><br>
 
 ## 🖼️ Limitations 
 
