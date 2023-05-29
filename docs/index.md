@@ -29,7 +29,10 @@
 ## ⚙️ Introduction
 As international students studying abroad, we have chosen this topic since it is closely related to our living standards. Inflation measures how much more expensive a set of goods and services has become over a certain period (IMF definition), which is critical for us to manage the way we allocate money.
 
-The exchange rate is important to us because we constantly face the need to be aware of the change in the exchange rate, as every single transaction we make is linked to the exchange rate at the time. Hence, inflation and exchange rates are linked to our life and motivate us to investigate their correlation. <br><br>
+The exchange rate is important to us because we constantly face the need to be aware of the change in the exchange rate, as every single transaction we make is linked to the exchange rate at the time. Hence, inflation and exchange rates are linked to our life and motivate us to investigate their correlation.
+
+According to our common knowledge, supposing the value of the US dollar stays consistent if one currency’s exchange rate decrease indicating the currency depreciates and there might be inflation in the country. This is easy to understand theoretically, but we are wondering if the exchange rate and inflation rate do have a negative relationship. Therefore, we collect data on exchange rates against the US dollar and CPI index to find the real correlation over the past 10 years. 
+<br><br>
 
 
 ## 📝 Project description
@@ -283,14 +286,15 @@ Unlike the result of China, the p-value of Canada is greater than 0.05. Therefor
   
   <div style="display: flex;">
       <div style="flex: 50%;">
-          <img src="./plots/datafram_CAN.png" alt="Best-fit line" style="width: 100%;">
+          <img src="./plots/dataframe_CAN.png" alt="Best-fit line" style="width: 100%;">
       </div>
       <div style="flex: 50%; display: flex; align-items: center; margin-left: 30px;">
         From the graph of best-fit line, we could see that there are some obvious outliers in the graph. These outliers might bias the correlation we found. As a result, we do the OLS again after removing the outliers. According to the result shown above, the p-value is 0.018126, which is less than 0.05. The coeffecient is still negative and R-squred is larger than the previous one. After the removal of outliers, the correlation between exchange rate and inflation in Canada is significant.
       </div>
   </div>
 
- 
+<br>
+From the dataframe we can see that the ourliers are all the data after 2020-04, which is the time when the COVID-19 pandemic started. As a result, we could see in the first best-fit graph that all these outliers have a very high CPI value. COVID-19 leads to an unsual inflation in Canada, which might bias the correlation we found. If we just focus on data before 2020-04 in Canada, the correlation between exchange rate and inflation in Canada is significant.
 
 <br><br>
 
@@ -849,7 +853,11 @@ Our study provides evidence about the correlation between inflation and exchange
 
 ## 🖋️ Conclusions
 
-In this study, our analysis revealed a noteworthy finding regarding the relationship between exchange rates and inflation across various countries. To a certain extent, we observed a negative correlation between these two variables in most countries. This negative correlation was found to be statistically significant and relatively strong. While the consistency of the correlation varied across some countries, a general pattern emerged, indicating negative correlations over the past three to five years. This implies that a decrease in the exchange rate tends to coincide with an increase in inflation. As a result, this correlation could be employed as an informative indicator for making short-term decisions regarding savings and consumption. However, it is crucial to exercise caution and consider the influence of unusual events and other factors that could impact both the exchange rate and inflation. The correlation identified in our study is just one of many indicators that can aid in making informed decisions in the short term. By taking into account multiple factors and assessing the overall economic environment, individuals can make more well-rounded decisions.
+In this study, our analysis revealed a noteworthy finding regarding the relationship between exchange rates and inflation across various countries. To a certain extent, we observed a negative correlation between these two variables in most countries. This negative correlation was found to be statistically significant and relatively strong. While the consistency of the correlation varied across some countries, a general pattern emerged, indicating negative correlations over the past three to five years. For example, in our analysis of Canada, if we exclude black swan events such as COVID, the correlation is roughly negative. This implies that a decrease in the exchange rate tends to coincide with an increase in inflation. As a result, this correlation could be employed as an informative indicator for making short-term decisions regarding savings and consumption.
+
+However, this correlation is not true for every country. We found a siginificant positive correlation between our two indicators in India. This is quite different from all other countries. We speculate that the differenc might be driven by India's restrictions on foreign exchange, payments and transactions made by foreigners. On the other hand, most countries in our study have a floating exchange rate system with more freedom. 
+
+In a nutshell, it is crucial to exercise caution and consider the influence of unusual events and other factors that could impact both the exchange rate and inflation. The theoratically correlation between exchange rate and inflation level is just one of many indicators that can aid in making informed decisions in the short term. By taking into account multiple factors and assessing the overall economic environment, individuals can make more well-rounded decisions. 
 
 <br><br>
 
