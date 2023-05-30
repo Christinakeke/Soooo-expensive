@@ -31,7 +31,7 @@ As international students studying abroad, we have chosen this topic for it is c
 
 The exchange rate is equally important to us because we need to constantly monitor the fluccuation in exchange rate, as every single transaction we make is linked to the exchange rate at the time. Hence, inflation and exchange rates are linked to our life thus motivate us to investigate their correlation.
 
-Speaking from our common knowledge, we understand if the value of the US dollar stays consistent whilst another country’s exchange rate decreases, the currency depreciates in that country and could result in inflationary pressure in its economy. Thus, there is a negative relationship between exchange rate and inflation. Despite comprehending the relationship between inflation and exchange rate on a theoretical level, we are impelled to investigate if the exchange rate and inflation rate really have a negative relationship in reality. Therefore, we collect data on exchange rates against the US dollar and CPI index to find the real correlation over the past 10 years. 
+Based on economic theory, we understand if the value of the US dollar stays consistent whilst another country’s exchange rate decreases, the currency depreciates in that country and could result in inflationary pressure in its economy. Thus, there is a negative relationship between exchange rate and inflation. Despite comprehending the relationship between inflation and exchange rate on a theoretical level, we are impelled to investigate if the exchange rate and inflation rate really have a negative relationship in reality. Therefore, we collect data on exchange rates against the US dollar and CPI index to find the real correlation over the past 10 years. 
 <br><br>
 
 
